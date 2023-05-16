@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Sigmar', cursive;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 320px;
+    background-color: #f0f0f0;
+    padding: 10px;
+}
+
+.grid-square {
+    width: 20px;
+    height: 20px;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+}
