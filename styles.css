@@ -23,3 +23,7 @@ body {
     background-color: #ffffff;
     border: 1px solid #000000;
 }
+
+.grid-square:hover {
+    background-color: #000000;
+}
