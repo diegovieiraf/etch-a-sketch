@@ -1,4 +1,5 @@
 const container = document.querySelector(".container");
+const button = document.querySelector(".btn");
 
 function createGrid() {
     for (let i = 0; i < 16; i++) {
@@ -14,3 +15,15 @@ function createGrid() {
 }
 
 createGrid();
+
+function gridSize() {
+    button.addEventListener("click", () => {
+        let squareNum = prompt("Enter the number of the squares on the grid (max: 100):");
+        if (squareNum > 100 || squareNum < 1) {
+            squareNum = prompt("Enter the number of the squares on the grid (max: 100):");
+        }
+        console.log(squareNum);
+    })
+}
+
+gridSize();
